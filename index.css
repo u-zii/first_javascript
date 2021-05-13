@@ -43,7 +43,10 @@ h1 {
     z-index: -1;
     animation: fadeIn 3s linear;
 }
-
+.js-toDoList {
+    list-style: none;
+    padding-left: 0px;
+}
 ul > li {
     margin-bottom: 7px;
 }
@@ -77,5 +80,8 @@ li::marker {
     text-align: center;
 }
 .js-toDoList {
+    text-align: center;
+}
+.js-form {
     text-align: center;
 }
