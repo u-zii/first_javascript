@@ -43,11 +43,16 @@ h1 {
     z-index: -1;
     animation: fadeIn 3s linear;
 }
+
 ul > li {
     margin-bottom: 7px;
 }
 ul > li > span {
     margin-right: 10px;
+}
+
+li::marker {
+    color: white;
 }
 
 .js-clock {
@@ -64,13 +69,13 @@ ul > li > span {
 .js-weather {
     position: fixed;
     bottom: 10px;
+    width: 100%;
     text-align: center;
-    margin-left: 250px;
 }
 
 .js-toDoForm {
     text-align: center;
 }
 .js-toDoList {
-    margin-left: 30%;
+    text-align: center;
 }
